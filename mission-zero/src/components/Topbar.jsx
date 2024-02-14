@@ -18,15 +18,15 @@ function Topbar() {
 
   const routes = [
     {
-      title: "Home",
+      title: "  Home",
       Icon: BiHomeAlt2,
     },
     {
-      title: "Explore",
+      title: " Explore",
       Icon: FiSearch,
     },
     {
-      title: "Pricing",
+      title: " Pricing",
       Icon: IoPricetagsOutline,
     },
   ];
