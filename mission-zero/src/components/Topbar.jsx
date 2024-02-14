@@ -16,6 +16,7 @@ import ListItemText from '@mui/material/ListItemText';
 
 function Topbar() {
 
+  // routes to nav items with react-icons
   const routes = [
     {
       title: "  Home",
@@ -31,6 +32,7 @@ function Topbar() {
     },
   ];
 
+  // Material UI code from site for Drawer component ------------------------------------ //
   const [state, setState] = useState({
     right: false,
   });
@@ -51,7 +53,7 @@ function Topbar() {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Home', 'Explore', 'Pricing', 'Login'].map((text, index) => (
+        {['Home', 'Explore', 'Pricing', 'Logout'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemText primary={text} />
@@ -62,6 +64,7 @@ function Topbar() {
     </Box>
   );
 
+// ---------------------------------------------------------------------------------------//
 
   return (
     <div className={style.containerTopBar}>
@@ -73,6 +76,8 @@ function Topbar() {
       </div>
       
       <div className={style.menu}>
+
+  {/* --------------------------- .map code for mapping over array of objects in navmenu ------------ */}
         <ul className={style.menuList}>
             {routes.map((route) => {
               const { Icon, title } = route;
@@ -85,9 +90,11 @@ function Topbar() {
             })}
           </ul>
           <button className={style.menuLogin}>
-            Login
+            Logout
           </button>
 
+
+{/* ---------------- Code from Material UI for Drawer component ----------------------------- */}
       <div className={style.mobileResize}>
       {['X'].map((anchor) => (
         
@@ -105,6 +112,7 @@ function Topbar() {
         
       ))}
     </div>
+  {/* ---------------------------------------------------------------------------------------- */}
       
         </div>
     </div>
