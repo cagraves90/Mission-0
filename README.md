@@ -16,11 +16,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -37,7 +32,7 @@ This is a quick webpage for a mock movie site search. This is for educational pu
 
 ### Built With
 
-* [![React][React.js]][React-url]
+* React [https://react.dev/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -50,7 +45,7 @@ To get started, clone the git repo to your local machine, install some packages,
 
 ### Prerequisites
 
-You will need Vite and Node.js in order to run this repo. Please make sure you have Node installed on your local computer: https://nodejs.org/en
+You will need Vite and Node.js in order to run this repo. Please make sure you have Node installed on your local computer: https://nodejs.org/en. 
 After this is set up, you will need to open VS Code and clone the repo to your local computer. 
 This project uses Vite + React as mentioned above, in order to run the project will need to run the npm packages below:
 * npm
