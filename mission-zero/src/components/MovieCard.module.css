@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Protest+Guerrilla&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-condensed {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+.movieCard {
+    width: 25em;
+    color: white;
+}
+
+.movie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 20em;
+    height: 32em;
+    margin: 1.5rem;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    border: none;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+
+.movieText {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      font-size: 20px;
+
+  }
+
+.movie:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+  }
+  
+.movieDescription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5em;
+}

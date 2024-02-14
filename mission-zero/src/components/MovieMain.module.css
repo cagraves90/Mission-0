@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Protest+Guerrilla&display=swap');
+
+.protest-guerrilla-regular, .mainText {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.mainHeader {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+      /* align-items: center; */
+    }
+    
+.mainBackground {
+    position: relative;
+    width: 100%;
+    }
+    
+    
+.mainPicture {
+    position: fill;
+    width: 100vw;
+    height: 30em;
+    z-index: -1;
+    }
+    
+.mainText {
+    margin-top: 1.5em;
+    margin-left: 2em;
+    font-size: 70px;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+ }
+
+
+.search {
+    z-index: 1;
+    position: absolute;
+    align-self: flex-end;
+    width: 40%;
+    margin: 4rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.0rem 1.0rem;
+    border-radius: 2rem;
+    background: white;
+}
+
+.input {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background: white;
+}
+
+.searchButton{
+    width: 3em;
+    height: 3em;
+    cursor: pointer;
+}
+
+.mainContainer {
+    border: 2px solid black;
+    width: 100%;
+    background-color: black;
+}
+
+.cardContainer {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .mainText {
+        font-size: 50px;
+    }
+
+    .search {
+        width: 70%
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .mainText {
+        font-size: 45px;
+    }
+
+    .search {
+        width: 70%
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .mainText {
+        font-size: 40px;
+    }
+
+    .search {
+        width: 70%
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .mainText {
+        font-size: 40px;
+    }
+
+    .search {
+        width: 70%
+    }
+  }
+
+  @media only screen and (max-width: 300px) {
+    .mainText {
+        font-size: 35px;
+    }
+
+    .search {
+        width: 60%
+    }
+  }
